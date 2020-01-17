@@ -14,9 +14,9 @@ urllib module
 
 Run the command below.
 
-"""
+```
 py main.py
-"""
+```
 
 The web server will be running on port 8080.
 
@@ -26,12 +26,12 @@ So, you can access the web page on http://localhost:8080/.
 
 If you want to specify your own route, open ./src/routes.py, and you will find something like this.
 
-"""
+```
 routes = {
     "/": "hello.html",
     "/hello": "hello.html"
 }
-"""
+```
 
 Add new element into the dictionary, set the key as your route and the value as your file name.
 
