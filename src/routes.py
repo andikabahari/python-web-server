@@ -6,6 +6,6 @@ just add it. Set the key as your route and the value
 as your file name.
 """
 routes = {
-    "/": "index.html",
+    "/": "hello.html",
     "/hello": "hello.html"
 }
